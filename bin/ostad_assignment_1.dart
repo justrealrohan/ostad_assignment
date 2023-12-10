@@ -70,11 +70,11 @@ class Teacher extends Person {
 }
 
 void main() {
-  Student stobj = Student('John Doe', 20, '123 Main st', 1, 'A');
-  stobj.courseScores = [10, 20, 3];
-  stobj.displayAllInfo();
+  Student obj1 = Student('John Doe', 20, '123 Main st', 1, 'A');
+  obj1.courseScores = [10, 20, 3];
+  obj1.displayAllInfo();
 
-  Teacher tecobj = Teacher('Mrs. Smith', 35, '456 Oak st', 3);
-  tecobj.courseTaught = ['Math', 'English', 'Bangla'];
-  tecobj.displayAllInfo();
+  Teacher obj2 = Teacher('Mrs. Smith', 35, '456 Oak st', 3);
+  obj2.courseTaught = ['Math', 'English', 'Bangla'];
+  obj2.displayAllInfo();
 }
